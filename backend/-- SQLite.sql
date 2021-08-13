@@ -1,0 +1,8 @@
+-- SQLite
+CREATE TABLE birthday (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+   	name TEXT NOT NULL,
+	day TEXT NOT NULL ,
+	month TEXT NOT NULL ,
+	year TEXT NOT NULL ,
+);
